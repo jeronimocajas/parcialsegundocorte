@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTION DE PELICULAS</title>
+    <link rel="stylesheet" href="../css/GestionDePeliculas.css">
+</head>
+
+<body>
+
+    <header class="body">
+        <div >
+        <h1>Gestion de Peliculas</h1>
+        </div>
+            <div class="claseimagen"><img src="../recursos/logo.png"width="15%" alt="">
+            </div>
+          </header>
+    <center>
+
+        <table>
+            <form>
+                <tr>
+                    <td width="50%">Codigo: </td>
+                    <td width="50%"><input type="text" required></td> <br> <br> <br>
+                </tr>
+                <tr>
+                    <td width="50%">Nombre: </td>
+                    <td width="50%"><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td width="50%">Nombre Asignado: </td>
+                    <td width="50%"><input type="text" required></td>
+                <tr>
+                    <td width="50%">Genero: </td>
+                    <td width="50%"><select style="width: 100%;">
+                            <option selected disabled value=""></option>
+                            <option value="Acción">Acción</option>
+                            <option value="Aventura">Aventura</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Ciencia Ficcion">Ciencia Ficcion</option>
+                            <option value="Catástrofe">Catástrofe</option>
+                            <option value="Comedia">Comedia</option>
+                            <option value="Documentales">Documentales</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Fantasía">Fantasía</option>
+                            <option value="Musicales">Musicales</option>
+                            <option value="Suspenso">Suspenso</option>
+                            <option value="Terror">Terror</option>
+
+                        </select></td>
+                </tr>
+                <tr>
+                    <td width="50%">Idioma Original:</td>
+                    <td width="50%"><select style="width: 100%;">
+                            <option selected disabled value=""></option>
+                            <option value="Ingles">Ingles</option>
+                            <option value="Español">Español</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td width="50%">Idioma Disponible:</td>
+                    <td width="50%"><select style="width: 100%;">
+                            <option selected disabled value=""></option>
+                            <option value="Ingles">Ingles</option>
+                            <option value="Español">Español</option>
+                            <option value="Frances">Frances</option>
+                            <option value="Aleman">Aleman</option>
+                            <option value="Japones">Japones</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td width="50%">Subtitulos:</td>
+                    <td width="50%">Si
+                        <input type="checkbox" required> No <input type="checkbox" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">Subtitulos:</td>
+                    <td width="50%">
+                        <select style="width: 100%;">
+                            <option selected disabled value=""></option>
+                            <option value="Español">Español</option>
+                            <option value="Ingles">Ingles</option>
+                            <option value="Frances">Frances</option>
+                            <option value="Aleman">Aleman</option>
+                            <option value="Japones">Japones</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%">Duracion:</td>
+                    <td width="50%"><select style="width: 100%;">
+                            <option selected disabled value=""></option>
+                            <option value="01:30:00 hrs">01:30:00 hrs</option>
+                            <option value="01:40:00 hrs">01:40:00 hrs</option>
+                            <option value="01:50:00 hrs">01:50:00 hrs</option>
+                            <option value="02:00:00 hrs">02:00:00 hrs</option>
+                            <option value="02:10:00 hrs">02:10:00 hrs</option>
+                            <option value="02:20:00 hrs">02:20:00 hrs</option>
+                            <option value="02:30:00 hrs">02:30:00 hrs</option>
+                            <option value="02:40:00 hrs">02:40:00 hrs</option>
+                            <option value="02:50:00 hrs">02:50:00 hrs</option>
+                            <option value="03:00:00 hrs">03:00:00 hrs</option>
+                            <option value="03:10:00 hrs">03:10:00 hrs</option>
+
+                        </select></td>
+                </tr>
+                <tr>
+                    <td width="50%">Reparto:</td>
+                    <td width="50%"><input type="text" required> </td>
+                </tr>
+                <tr>
+                    <td width="50%">Numero de Afiches:</td>
+                    <td width="50%"><input type="number" required> </td>
+                </tr>
+                <tr>
+                    <td width="50%">Numero de Copias:</td>
+                    <td width="50%"><input type="number" required> </td>
+                </tr>
+
+                <tr>
+                    <td width="50%">Productora:</td>
+                    <td width="50%"><select style="width: 100%;">
+                            <option selected disabled value=""></option>
+                            <option value="Disney Studios">Disney Studios</option>
+                            <option value="Universal Studios">Universal Studios</option>
+                            <option value="DreamWorks">DreamWorks</option>
+                            <option value="WarnerBros">WarnerBros</option>
+
+                        </select></td>
+                </tr>
+
+            </form>
+        </table>
+        <br> <br> <br>
+
+        <button type="submit" onclick="GuardarDatos()">GuardarDatos</button>
+        
+
+
+</body>
+
+</html>

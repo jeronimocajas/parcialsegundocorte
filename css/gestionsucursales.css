@@ -1,0 +1,13 @@
+.body{
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+   
+    
+}
+
+.claseimagen{
+    display: flex;
+    justify-content: end;
+
+}
